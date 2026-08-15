@@ -292,7 +292,7 @@ dsh-usage-dashboard/
 ## 联系与支持
 
 - 问题与建议：[GitHub Issues](https://github.com/xinmo114514/dsh-usage-dashboard/issues)
-- 作者 / 维护者：[心魔才不是女孩子呢](https://space.bilibili.com/<你的UID>)（B 站同名）
+- 作者 / 维护者：[心魔才不是女孩子呢](https://space.bilibili.com/359100532)（B 站同名）
 - 主页 / 文档：`<项目主页或文档地址>`
 - 交流群 / 社区：`<社区链接>`
 
