@@ -1,0 +1,6 @@
+# dsh-usage-dashboard bundle 层：插入设置页 Token 消耗仪表盘插件行。
+# loader 条目按 name 解析包（profile node_modules junction），host 半的
+# 服务注入列表由插件模块自身导出（src/index.ts 的 `inject`）。
+- insert:
+    - id: usage-dashboard
+      name: 'dsh-usage-dashboard'
