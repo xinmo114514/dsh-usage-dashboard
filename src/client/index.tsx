@@ -57,6 +57,7 @@ const DICT: Record<string, Record<string, string>> = {
     unknown: '未知模型',
     hitRate: '命中率',
     today: '今日',
+    models: '个模型',
   },
   en: {
     nav: 'Token usage',
@@ -90,6 +91,7 @@ const DICT: Record<string, Record<string, string>> = {
     unknown: 'Unknown model',
     hitRate: 'hit rate',
     today: 'Today',
+    models: 'models',
   },
 }
 
@@ -734,7 +736,7 @@ function DashboardSection(): any {
       createElement('div', { className: 'udb-card-head' },
         createElement('div', { className: 'udb-card-title' }, t('byModel')),
         createElement('div', { className: 'udb-card-note' },
-          fmtFull((data?.byModel || []).length) + ' · ' + fmtFull(total) + ' tokens',
+          fmtFull((data?.byModel || []).length) + ' ' + t('models') + ' · ' + fmtFull(total) + ' tokens',
         ),
       ),
       createElement(DistBars, {
